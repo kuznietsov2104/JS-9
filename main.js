@@ -100,3 +100,16 @@ function updateCounter() {
 }
 
 loadTasks();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./service-worker.js")
+      .then(() => {
+        console.log("PWA готово к работе!");
+      })
+      .catch((error) => {
+        console.error("Ошибка регистрации PWA:", error);
+      });
+  });
+}

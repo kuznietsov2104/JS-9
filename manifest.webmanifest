@@ -1,0 +1,22 @@
+{
+    "name": "My Todo List",
+    "short_name": "Todo",
+    "description": "My Tasks",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#c9b6d8",
+    "theme_color": "#c9b6d8",
+    "icons": [
+        {
+            "src": "./icons/list-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/list-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
