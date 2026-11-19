@@ -45,10 +45,11 @@ body {
 }
 
 .todo-input::placeholder {
-  color: #000000;
+  color: #3d3d3d;
 }
 
 .btn {
+  color: #000000;
   padding: 10px 35px;
   font-size: 21px;
   border: 1px solid #444;
