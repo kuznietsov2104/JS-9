@@ -96,7 +96,7 @@ function updateCounter() {
 
   const doneTasks = list.querySelectorAll('li[data-done="true"]').length;
 
-  counter.textContent = `Виконано: ${doneTasks} / ${totalTasks}`;
+  counter.textContent = `Completed: ${doneTasks} / ${totalTasks}`;
 }
 
 loadTasks();
